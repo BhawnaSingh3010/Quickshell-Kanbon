@@ -1,0 +1,113 @@
+.top-menu {
+    display: flex;
+    justify-content: space-between;
+    font-family: sans-serif;
+    font-size: 12px;
+}
+
+.top-menu .Item-name {
+    /* display: flex;
+    justify-content: space-between; */
+    width: 80%;
+    font-size: 12px;
+}
+
+.top-menu .Item-name span {
+    font-weight: bold;
+    margin-right: 4%;
+    float: left;
+}
+
+.top-menu .Item-name svg {
+    margin-right: 5%;
+    float: left;
+}
+
+.row {
+    display: flex;
+    width: 98%;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.TaskContainer {
+    width: 18%;
+    margin: 1%;
+    font-family: sans-serif;
+    font-size: 12px;
+}
+
+.Main-Task-container {
+    display: flex;
+    margin: 5% 0;
+    padding: 5% 5%;
+    background: #fff;
+    justify-content: space-between;
+    border: 0.5px solid lightgray;
+    box-shadow: 1px 1px 4px 0px lightgray;
+    border-radius: 3px;
+    cursor: pointer;
+    height: 100px;
+}
+
+.Main-Task-container p {
+    font-size: 11px;
+    margin: 10px 0;
+    font-weight: 600;
+}
+
+.CAM-value {
+    color: #8D9095;
+    margin: 5px 0 !important;
+    font-size: 12px !important;
+}
+
+.task-bottom {
+    display: flex;
+    justify-content: space-between;
+    width: 63%;
+}
+
+.featureBox {
+    color: #8D9095;
+    font-size: 9px;
+    border: 0.09px solid lightgray;
+    padding: 2px;
+    border-radius: 2px;
+}
+
+.featureBox span {
+    margin: 5px;
+}
+
+.taskBox {
+    width: 90%;
+}
+
+.NoTask {
+    margin: 5% 2px;
+    font-size: 13px;
+    color: #8D9095;
+}
+
+.userIcon {
+    color: #6791d6;
+    font-size: 16px;
+    margin: 25%;
+
+}
+.icon_img{
+    width: 12%;
+    height: 24px;
+}
+.icon_img img{
+    width: 100%;
+    height: 100%;
+}
+.Item-name img{
+    width: 11%;
+    float: left;
+    height: 18px;
+    margin-right: 3%;
+    margin-top: -3px;
+}

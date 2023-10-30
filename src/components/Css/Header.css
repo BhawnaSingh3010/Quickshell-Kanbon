@@ -1,0 +1,71 @@
+
+.HeaderMain{
+    background-color:#fff;
+    width: 100%;
+    position: relative;
+    height: 50px;
+}
+svg{
+    background-color: transparent;
+}
+.header_select{
+    width: 8%;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 20%;
+    left: 2%;
+    padding: 5px 0px;
+    border-radius: 2px;
+    border: 0.5px solid lightgray;
+    box-shadow: 1px 2px 5px 0px lightgray;
+}
+.header_select .Displayselect{
+    display: flex;
+    font-family: sans-serif;
+    border: none;
+    width: 60px;
+    background-color: transparent;
+    margin: 0 0px 0 10px;
+    outline: none;
+    text-decoration: none;
+    font-size: 12px;
+    cursor: pointer;
+}
+.Displayselect svg{
+    margin: 3% 8%;
+
+}
+.displayModal{
+    position: absolute;
+    top: 86%;
+    background: #F8F8FA;
+    left: 1.8%;
+    padding: 5px 15px;
+    border-radius: 5px;
+    border: 0.5px solid lightgray;
+    box-shadow: 1px 2px 5px 0px lightgray;
+    transition: opacity 1000ms, display 500ms;
+    display: none;
+    opacity: 0;
+}
+.displayModal span{
+    font-family: sans-serif;
+    color: #8D9095;
+    font-size: 11px;
+}
+.displayModal select{
+    margin: 5% 0px 5% 71px;
+    font-size: 10px;
+    padding: 3px;
+    width: 80px;
+    outline: none;
+    text-decoration: none;
+    cursor: pointer;
+}
+.modalshow{
+    display: block;
+    opacity: 1;
+    transition: 2s;
+}

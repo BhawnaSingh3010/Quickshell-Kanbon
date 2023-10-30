@@ -1,0 +1,1 @@
+export const GETTASK = '/v1/internal/frontend-assignment'
